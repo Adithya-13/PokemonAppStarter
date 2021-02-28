@@ -16,7 +16,7 @@ class FavoriteActivity : AppCompatActivity() {
         val actionBar = supportActionBar
         actionBar?.setDisplayHomeAsUpEnabled(true)
     }
-    
+
     override fun onNavigateUp(): Boolean {
         onBackPressed()
         return false
